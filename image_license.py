@@ -206,7 +206,7 @@ class MainWindow(QtWidgets.QFrame, layout_image.Ui_Frame):
     def info(self, text):
         in4 = self.let_bienso.text()
         in5 = int(in4[0:2])
-        self.let_ten.setText('Hoàng Lê Thiện An')
+        self.let_ten.setText('Vu Van A')
         lang = {
             11: 'Cao Bằng', 12: 'Lạng Sơn', 14: 'Quảng Ninh', 15: 'Hải Phòng', 17: 'Thái Bình', 18: 'Nam Định',
             19: 'Phú Thọ', 20: 'Thái Nguyên', 21: 'Yên Bái', 22: 'Tuyên Quang', 23: 'Hà Giang', 24: 'Lao Cai',
